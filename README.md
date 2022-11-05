@@ -20,10 +20,10 @@ class Student{
    	    rollNo = r;
     }
    
-     void methodforDisplay()
-     {
-         System.out.println(name+"'s Roll No: "+rollNo);
-     }
+    void methodforDisplay()
+    {
+        System.out.println(name+"'s Roll No: "+rollNo);
+    }
    
     public static void main(String args[]){
         Student obj1=new Student("Ramboo",21);
