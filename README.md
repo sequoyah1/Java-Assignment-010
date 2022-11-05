@@ -3,11 +3,11 @@
 ## Part 1 - Analyze
 * Add Comments to the Code below and label the following:
   1. Class name
-  1. All **instance variables/fields** and their data-types
-  1. The **Constructor** and the **Constructor Parameters**
-  1. Where a **Student** object gets created.
-  1. Where the **instance variables** value gets set and what its values are.
-  1. All the instance methods for the class **Student**
+  2. All **instance variables/fields** and their data-types
+  3. The **Constructor** and the **Constructor Parameters**
+  4. Where a **Student** object gets created.
+  5. Where the **instance variables** value gets set and what its values are.
+  6. All the instance methods for the class **Student**
 
 ```java
 class Student{
@@ -20,14 +20,14 @@ class Student{
    	    rollNo = r;
     }
    
-    void methodforDisplay()
+    void methodForDisplay()
     {
         System.out.println(name+"'s Roll No: "+rollNo);
     }
-   
-    public static void main(String args[]){
-        Student obj1=new Student("Ramboo",21);
-        obj1.methodforDisplay();
+
+    public static void main(String[] args) {
+        Student obj1=new Student("Rambo",21);
+        obj1.methodForDisplay();
     }
 }
 ```
@@ -46,7 +46,7 @@ class Student{
 * You should have 4 instance methods for eat, run, sleep, and name
 * You should have a **main** method that creates the 3 Dog objects in the diagram.
 * Make at least 2 of your methods functional (i.e. perform some action)!!!
-    * For Example: method eat might take a class parameter named **Food** (i.e. another class) that has an field **weight**, and your eat method might reduce the weight in **Food**.
+    * For Example: method eat might take a class parameter named **Food** (i.e. another class) that has a field **weight**, and your eat method might reduce the weight in **Food**.
 
 ## Part 4 - Turn-In
 * Commit your code and push it back to your account.
