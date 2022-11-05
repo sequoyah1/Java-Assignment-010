@@ -11,10 +11,10 @@
 
 ```java
 class Student{
-    private String name; //field or data member or instance variable
-    private int rollNo;//field or data member or instance variable
+    private String name;
+    private int rollNo;
    
-    Student(String s, int r) // this is a constructor
+    Student(String s, int r)
     {
    	    name = s;
    	    rollNo = r;
