@@ -33,12 +33,15 @@ class Student{
 ```
 
 ## Part 2 - Public VS Static
+
 * Read the W3Schools page on class methods: [W3Schools Java Class Methods](https://www.w3schools.com/java/java_class_methods.asp)
 * In your own words, write a few sentences below explaining the difference between static and public methods in relation to a class.
 
 ## Part 3 - Dogs
+
 * View the image below, and from the image, construct a Java file **Dog** that mirrors the diagrammed class and the 3 dog objects.
 ![Dog Class](images/ClassVSObject.png)
+
 * Your class should be named **Dog**
 * You should have **private** instance variables/fields for all the data members.
 * You should have a **constructor** that sets the initial state of the data members via passed parameters.
@@ -49,6 +52,7 @@ class Student{
     * For Example: method eat might take a class parameter named **Food** (i.e. another class) that has a field **weight**, and your eat method might reduce the weight in **Food**.
 
 ## Part 4 - Turn-In
+
 * Commit your code and push it back to your account.
 * Create a Pull request as you have been doing for all assignments.
 * Paste the Pull request URL back into the Canvass assignment page for credit.
