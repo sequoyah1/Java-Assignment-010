@@ -1,4 +1,6 @@
+
 # Java-Assignment-010 - Classes and Objects
+
 
 ## Part 1 - Analyze
 * Add Comments to the Code below and label the following:
@@ -10,13 +12,19 @@
   6. All the instance methods for the class **Student**
 
 ```java
-class Student{
-    private String name;
+/**
+ * Author Sequoyah Schaefer
+ * Since 4/17/2023
+ * Version 1.0
+ */
+class Student{  /** Class: Student */
+    private String name; /** Instance Variable 1: Name, String. Variable 2 rollNo, int.*/
     private int rollNo;
    
-    Student(String s, int r)
+    Student(String s, int r) /** Constructor: Student Parameters: String s, int r.*/
     {
-   	    name = s;
+   	    
+        name = s; /** Instance variables set here. Name value is S and rollNo value is r.*/
    	    rollNo = r;
     }
    
@@ -26,7 +34,7 @@ class Student{
     }
 
     public static void main(String[] args) {
-        Student obj1=new Student("Rambo",21);
+        Student obj1=new Student("Rambo",21); /** Student object is created by the constructor.*/
         obj1.methodForDisplay();
     }
 }
@@ -36,6 +44,24 @@ class Student{
 
 * Read the W3Schools page on class methods: [W3Schools Java Class Methods](https://www.w3schools.com/java/java_class_methods.asp)
 * In your own words, write a few sentences below explaining the difference between static and public methods in relation to a class.
+Java programs usually have either static or public attributes and methods. 
+* For the example of 
+* public class Main {
+  static void myMethod() {
+  System.out.println("Hello World!");
+  }
+
+  public static void main(String[] args) {
+  myMethod();
+  }
+  }
+
+// Outputs "Hello World!" ,
+this is a static method. This means it can be accessed without creating an object of the class, whereas public can only be accessed by objects. 
+For
+Main myObj = new Main();
+myObj.myPublicMethod();
+This is a public method, the object is first created from Main and then it is called in the second line. 
 
 ## Part 3 - Dogs
 
